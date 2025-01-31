@@ -16,3 +16,5 @@ bin/rails db:migrate &&
 bin/rails db:seed &&
 bin/rails server
 ```
+
+localhost:3000/celebritiesにアクセスしてください。

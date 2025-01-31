@@ -2,13 +2,16 @@
 
 <% content_for :title, "Celebrities" %>
 
-<h1>Celebrities</h1>
+<h1>有名人の知名度調査</h1>
+<h2>「知っている」「知らない」の2択アンケートで集計した結果に基づいて、有名人の知名度を調査しました。各有名人の名前のリンクからアンケートに回答できます。</h2>
 
 <div id="celebrities">
   <% @celebrities.each do |celebrity| %>
-    <%= render celebrity %>
-    <p>
-      <%= link_to "Show this celebrity", celebrity %>
-    </p>
+    <div class="celebrity">
+    <img src="<%= celebrity.image_url %>" alt="<%= celebrity.name %>の画像" />
+    <%= link_to celebrity.name, celebrity %>
+      <p>知っている: <%= celebrity.known_cnt %> 回</p>
+      <p>知らない: <%= celebrity.unknown_cnt %> 回</p>
+    </div>
   <% end %>
 </div>

@@ -10,12 +10,12 @@ class CelebritiesController < ApplicationController
   def show
   end
 
+=begin
   # GET /celebrities/new
   def new
     @celebrity = Celebrity.new
   end
 
-=begin
   # GET /celebrities/1/edit
   def edit
   end
@@ -33,6 +33,7 @@ class CelebritiesController < ApplicationController
     redirect_to celebrities_path, notice: 'Your vote was successfully recorded.'
   end
 
+=begin
   # POST /celebrities or /celebrities.json
   def create
     @celebrity = Celebrity.new(celebrity_params)
@@ -48,7 +49,6 @@ class CelebritiesController < ApplicationController
     end
   end
 
-=begin
   # PATCH/PUT /celebrities/1 or /celebrities/1.json
   def update
     respond_to do |format|

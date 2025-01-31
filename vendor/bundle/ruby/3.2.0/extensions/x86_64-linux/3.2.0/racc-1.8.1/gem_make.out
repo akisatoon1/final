@@ -1,0 +1,18 @@
+current directory: /home/akisatoon/jugyo/aitools2/final/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+/home/akisatoon/.anyenv/envs/rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/akisatoon/jugyo/aitools2/final/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250131-1880-7cqsai sitelibdir\=./.gem.20250131-1880-7cqsai clean
+
+current directory: /home/akisatoon/jugyo/aitools2/final/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250131-1880-7cqsai sitelibdir\=./.gem.20250131-1880-7cqsai
+compiling cparse.c
+linking shared-object racc/cparse.so
+
+current directory: /home/akisatoon/jugyo/aitools2/final/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250131-1880-7cqsai sitelibdir\=./.gem.20250131-1880-7cqsai install
+/usr/bin/install -c -m 0755 cparse.so ./.gem.20250131-1880-7cqsai/racc
+
+current directory: /home/akisatoon/jugyo/aitools2/final/vendor/bundle/ruby/3.2.0/gems/racc-1.8.1/ext/racc/cparse
+make DESTDIR\= sitearchdir\=./.gem.20250131-1880-7cqsai sitelibdir\=./.gem.20250131-1880-7cqsai clean

@@ -1,0 +1,22 @@
+current directory: /home/akisatoon/jugyo/aitools2/final/vendor/bundle/ruby/3.2.0/gems/debug-1.10.0/ext/debug
+/home/akisatoon/.anyenv/envs/rbenv/versions/3.2.2/bin/ruby extconf.rb
+creating Makefile
+
+current directory: /home/akisatoon/jugyo/aitools2/final/vendor/bundle/ruby/3.2.0/gems/debug-1.10.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250131-2757-1ecjh sitelibdir\=./.gem.20250131-2757-1ecjh clean
+
+current directory: /home/akisatoon/jugyo/aitools2/final/vendor/bundle/ruby/3.2.0/gems/debug-1.10.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250131-2757-1ecjh sitelibdir\=./.gem.20250131-2757-1ecjh
+compiling debug.c
+compiling iseq_collector.c
+linking shared-object debug/debug.so
+
+current directory: /home/akisatoon/jugyo/aitools2/final/vendor/bundle/ruby/3.2.0/gems/debug-1.10.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250131-2757-1ecjh sitelibdir\=./.gem.20250131-2757-1ecjh install
+make: Warning: File 'Makefile' has modification time 0.15 s in the future
+linking shared-object debug/debug.so
+/usr/bin/install -c -m 0755 debug.so ./.gem.20250131-2757-1ecjh/debug
+make: warning:  Clock skew detected.  Your build may be incomplete.
+
+current directory: /home/akisatoon/jugyo/aitools2/final/vendor/bundle/ruby/3.2.0/gems/debug-1.10.0/ext/debug
+make DESTDIR\= sitearchdir\=./.gem.20250131-2757-1ecjh sitelibdir\=./.gem.20250131-2757-1ecjh clean

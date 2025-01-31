@@ -1,0 +1,37 @@
+<%= form_with(model: celebrity) do |form| %>
+  <% if celebrity.errors.any? %>
+    <div style="color: red">
+      <h2><%= pluralize(celebrity.errors.count, "error") %> prohibited this celebrity from being saved:</h2>
+
+      <ul>
+        <% celebrity.errors.each do |error| %>
+          <li><%= error.full_message %></li>
+        <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div>
+    <%= form.label :name, style: "display: block" %>
+    <%= form.text_field :name %>
+  </div>
+
+  <div>
+    <%= form.label :image_url, style: "display: block" %>
+    <%= form.text_field :image_url %>
+  </div>
+
+  <div>
+    <%= form.label :known_cnt, style: "display: block" %>
+    <%= form.number_field :known_cnt %>
+  </div>
+
+  <div>
+    <%= form.label :unknown_cnt, style: "display: block" %>
+    <%= form.number_field :unknown_cnt %>
+  </div>
+
+  <div>
+    <%= form.submit %>
+  </div>
+<% end %>

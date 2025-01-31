@@ -1,11 +1,5 @@
 <p style="color: green"><%= notice %></p>
 
-<%= render @celebrity %>
-
-<div>
-  <%= link_to "Back to celebrities", celebrities_path %>
-</div>
-
 <h1><%= @celebrity.name %>の知名度</h1>
 <img src="<%= @celebrity.image_url %>" alt="<%= @celebrity.name %>" />
 <p>知っている: <%= @celebrity.known_cnt %> 回</p>
@@ -18,3 +12,7 @@
   <br>
   <%= submit_tag "投票する" %>
 <% end %>
+
+<div>
+  <%= link_to "Back to celebrities", celebrities_path %>
+</div>

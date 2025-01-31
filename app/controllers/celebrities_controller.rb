@@ -1,5 +1,5 @@
 class CelebritiesController < ApplicationController
-  before_action :set_celebrity, only: %i[ show destroy ]
+  before_action :set_celebrity, only: %i[ show ]
 
   # GET /celebrities or /celebrities.json
   def index
@@ -61,7 +61,6 @@ class CelebritiesController < ApplicationController
       end
     end
   end
-=end
 
   # DELETE /celebrities/1 or /celebrities/1.json
   def destroy
@@ -72,6 +71,7 @@ class CelebritiesController < ApplicationController
       format.json { head :no_content }
     end
   end
+=end
 
   private
     # Use callbacks to share common setup or constraints between actions.

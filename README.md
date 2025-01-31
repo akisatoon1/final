@@ -6,10 +6,10 @@ ubuntu22.04を用意。(24でも大丈夫かもしれない)
   
 以下のコマンドを実行。
 ```
-git clone https://github.com/akisatoon1/final.git /
-cd final / 
-bundle install --gemfile ./Gemfile /
-bin/rails db:migrate /
-bin/rails db:seed /
+git clone https://github.com/akisatoon1/final.git \
+cd final \
+bundle install --gemfile ./Gemfile \
+bin/rails db:migrate \
+bin/rails db:seed \
 bin/rails server
 ```

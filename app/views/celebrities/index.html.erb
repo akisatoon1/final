@@ -8,10 +8,14 @@
 <div id="celebrities">
   <% @celebrities.each do |celebrity| %>
     <div class="celebrity">
-    <img src="<%= celebrity.image_url %>" alt="<%= celebrity.name %>の画像" />
-    <%= link_to celebrity.name, celebrity %>
+      <hr />
+      <div class="celebrity-name">
+        <%= link_to celebrity.name, celebrity %>
+      </div>
+      <img src="<%= celebrity.image_url %>" alt="<%= celebrity.name %>の画像" />
       <p>知っている: <%= celebrity.known_cnt %> 回</p>
       <p>知らない: <%= celebrity.unknown_cnt %> 回</p>
+      <hr />
     </div>
   <% end %>
 </div>

@@ -10,7 +10,7 @@
 
 # 有名人データを作成する
 Celebrity.create([
-    { name: "大谷翔平", image_url: "https://images.app.goo.gl/SYh7HjcKkeGJoDq67", known_cnt: 11, unknown_cnt: 0 },
-    { name: "広瀬すず", image_url: "https://images.app.goo.gl/VaKWBkvs2XuqZphr6", known_cnt: 8, unknown_cnt: 5 },
-    { name: "まつもとゆきひろ", image_url: "https://images.app.goo.gl/fjoAd5ysoMfQQG1p8", known_cnt: 2, unknown_cnt: 5 }
+    { name: "大谷翔平", image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e6/Dodgers_at_Nationals_%2853677192000%29_%28cropped%29.jpg/466px-Dodgers_at_Nationals_%2853677192000%29_%28cropped%29.jpg", known_cnt: 11, unknown_cnt: 0 },
+    { name: "広瀬すず", image_url: "https://upload.wikimedia.org/wikipedia/commons/3/31/Suzu_Hirose_on_Our_Little_Sister_at_the_Cannes_film_festival_2015_12_%28cropped%29.jpg", known_cnt: 8, unknown_cnt: 5 },
+    { name: "まつもとゆきひろ", image_url: "https://upload.wikimedia.org/wikipedia/commons/thumb/7/76/Yukihiro_Matsumoto.JPG/220px-Yukihiro_Matsumoto.JPG", known_cnt: 2, unknown_cnt: 5 }
 ])

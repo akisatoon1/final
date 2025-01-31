@@ -30,7 +30,7 @@ class CelebritiesController < ApplicationController
       @celebrity.increment_unknown
     end
 
-    redirect_to celebrities_path, notice: 'Your vote was successfully recorded.'
+    redirect_to celebrities_path, notice: '投票されました。'
   end
 
 =begin

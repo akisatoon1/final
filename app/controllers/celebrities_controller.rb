@@ -19,6 +19,18 @@ class CelebritiesController < ApplicationController
   def edit
   end
 
+  def vote
+    @celebrity = Celebrity.find(params[:id])
+
+    if params[:vote] == "known"
+      @celebrity.increment_known
+    elsif params[:vote] == "unknown"
+      @celebrity.increment_unknown
+    end
+
+    redirect_to celebrities_path, notice: 'Your vote was successfully recorded.'
+  end
+
   # POST /celebrities or /celebrities.json
   def create
     @celebrity = Celebrity.new(celebrity_params)

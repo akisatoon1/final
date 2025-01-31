@@ -1,5 +1,5 @@
 class CelebritiesController < ApplicationController
-  before_action :set_celebrity, only: %i[ show edit update destroy ]
+  before_action :set_celebrity, only: %i[ show destroy ]
 
   # GET /celebrities or /celebrities.json
   def index
@@ -15,9 +15,11 @@ class CelebritiesController < ApplicationController
     @celebrity = Celebrity.new
   end
 
+=begin
   # GET /celebrities/1/edit
   def edit
   end
+=end
 
   def vote
     @celebrity = Celebrity.find(params[:id])
@@ -46,6 +48,7 @@ class CelebritiesController < ApplicationController
     end
   end
 
+=begin
   # PATCH/PUT /celebrities/1 or /celebrities/1.json
   def update
     respond_to do |format|
@@ -58,6 +61,7 @@ class CelebritiesController < ApplicationController
       end
     end
   end
+=end
 
   # DELETE /celebrities/1 or /celebrities/1.json
   def destroy

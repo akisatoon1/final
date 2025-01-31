@@ -3,7 +3,6 @@
 <%= render @celebrity %>
 
 <div>
-  <%= link_to "Edit this celebrity", edit_celebrity_path(@celebrity) %> |
   <%= link_to "Back to celebrities", celebrities_path %>
 
   <%= button_to "Destroy this celebrity", @celebrity, method: :delete %>
